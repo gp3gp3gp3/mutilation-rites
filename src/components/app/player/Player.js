@@ -4,9 +4,7 @@ import './Player.css'
 class Player extends Component {
   render () {
     return (
-      <div
-        className='bandcamp-frame'
-      >
+      <div className='bandcamp-frame'>
         <iframe
           title='MutilationRitesBandcampPlayer'
           className='bandcamp-player'
@@ -15,6 +13,14 @@ class Player extends Component {
         >
           <a href='http://mutilationrites.bandcamp.com/album/empyrean'>Empyrean by Mutilation Rites</a>
         </iframe>
+        <iframe
+          title='MutilationRitesSpotifyWidget'
+          src='https://open.spotify.com/follow/1/?uri=spotify:artist:60NhaZmTGP7euQlDDXjmmN&size=detail&theme=dark'
+          className='spotify-widget'
+          scrolling='no'
+          frameBorder='0'
+          allowTransparency
+        />
       </div>
     )
   }
