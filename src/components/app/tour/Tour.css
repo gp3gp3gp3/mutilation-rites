@@ -1,6 +1,28 @@
-h1 {
+p {
   color: lightgrey;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
 }
 .wrapper {
-  flex: 1;
+  display: flex;
+  flex: 2;
+  height: 768px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 766px) {
+  .item {
+    background-image: url(./Riddick_frame.jpg);
+    background-size: cover;
+    height: 768px;
+    width: 767px;
+    margin-top: -20px;
+  }
 }

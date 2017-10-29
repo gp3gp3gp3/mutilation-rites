@@ -16,7 +16,7 @@ class App extends Component {
       const node = ReactDOM.findDOMNode(this.refs[refName])
       window.scrollTo({
         left: 0,
-        top: node.offsetTop,
+        top: node.offsetTop - 20,
         behavior: 'smooth'
       })
     }
