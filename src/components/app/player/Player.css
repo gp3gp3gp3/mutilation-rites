@@ -1,9 +1,7 @@
 .bandcamp-frame {
-  max-height: 100vh;
-  height: 100%;
-  background-size: cover;
-  text-align: center;
-
+  flex: 1;
+  height: 75%;
+  justify-content: center;
 }
 
 .bandcamp-player {
@@ -17,30 +15,8 @@
     width: 60%;
     height: 80%;
   }
-}
-
-@media only screen and (min-width: 900px) {
   .bandcamp-frame {
-    background-image: url(./Riddick_frame.png);
-    margin: 0 10%;
-  }
-  .bandcamp-player {
-    width: 45%;
-    height: 75%;
-    position: relative;
-    top: 20%;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .bandcamp-frame {
-    margin: 0;
-    text-align: center;
-    max-width: 50%
-  }
-  .bandcamp-player {
-    width: 50%;
-    height: 80%;
-    left: 5%;
+    height: 100%;
+    width: 100%;
   }
 }

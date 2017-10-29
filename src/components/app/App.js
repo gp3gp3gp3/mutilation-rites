@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import './App.css'
 import Header from './header/Header'
 import Player from './player/Player'
+import Tour from './tour/Tour'
 
 class App extends Component {
   constructor () {
@@ -27,6 +28,7 @@ class App extends Component {
         <Header scrollToRef={this.scrollToRef} />
         <div className='Body'>
           <Player ref='player' />
+          <Tour ref='tour' />
         </div>
       </div>
     )

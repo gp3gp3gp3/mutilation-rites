@@ -4,7 +4,9 @@ import './Player.css'
 class Player extends Component {
   render () {
     return (
-      <div className='bandcamp-frame'>
+      <div
+        className='bandcamp-frame'
+      >
         <iframe
           title='MutilationRitesBandcampPlayer'
           className='bandcamp-player'
