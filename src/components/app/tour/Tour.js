@@ -6,7 +6,7 @@ class Tour extends Component {
     return (
       <div className='wrapper'>
         <div className='item'>
-          <p>No upcoming live shows</p>
+          <p>No upcoming dates</p>
         </div>
       </div>
     )
