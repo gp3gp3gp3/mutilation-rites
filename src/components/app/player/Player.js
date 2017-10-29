@@ -33,7 +33,7 @@ class Player extends Component {
             href='https://www.facebook.com/mutilationritesnyc/'
           >
             <i
-              class='fa fa-facebook-square fa-3x'
+              className='fa fa-facebook-square fa-3x'
               aria-hidden='true'
             />
           </a>
@@ -43,7 +43,7 @@ class Player extends Component {
             href='https://www.instagram.com/mutilationrites/'
           >
             <i
-              class='fa fa-instagram fa-3x'
+              className='fa fa-instagram fa-3x'
               aria-hidden='true'
             />
           </a>
@@ -53,7 +53,7 @@ class Player extends Component {
             href='https://twitter.com/mutilationrites'
           >
             <i
-              class='fa fa-twitter-square fa-3x'
+              className='fa fa-twitter-square fa-3x'
               aria-hidden='true'
             />
           </a>

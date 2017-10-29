@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.contact {
+  text-align: left;
+  color: lightgrey;
+  font-family: 'Roboto Mono', monospace;
+  margin: 10px 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 766px) {
+  .contact {
+    font-size: 1.5em;
+  }
+}

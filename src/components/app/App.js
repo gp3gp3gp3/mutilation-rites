@@ -4,6 +4,7 @@ import './App.css'
 import Header from './header/Header'
 import Player from './player/Player'
 import Tour from './tour/Tour'
+import Contact from './contact/Contact'
 
 class App extends Component {
   constructor () {
@@ -29,6 +30,7 @@ class App extends Component {
         <div className='Body'>
           <Player ref='player' />
           <Tour ref='tour' />
+          <Contact ref='contact' />
         </div>
       </div>
     )
