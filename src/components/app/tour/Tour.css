@@ -8,6 +8,7 @@ p {
   flex: 2;
   align-items: center;
   justify-content: center;
+  height: 20em;
 }
 
 .item {
@@ -17,6 +18,10 @@ p {
 }
 
 @media only screen and (min-width: 766px) {
+  .wrapper {
+    height: auto;
+  }
+
   .item {
     background-image: url(./Riddick_frame.jpg);
     background-size: cover;

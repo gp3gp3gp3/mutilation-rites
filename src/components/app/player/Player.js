@@ -22,7 +22,29 @@ class Player extends Component {
           allowTransparency
         />
         <div className='link-wrapper'>
-          <p className='link'>Press Package</p>
+          <a href='http://www.google.com'>
+            <p className='link'>PRESS PACKAGE</p>
+          </a>
+        </div>
+        <div className='social-buttons-wrapper'>
+          <a target='_blank' href='https://www.facebook.com/mutilationritesnyc/'>
+            <i
+              class='fa fa-facebook-square fa-3x'
+              aria-hidden='true'
+            />
+          </a>
+          <a target='_blank' href='https://www.instagram.com/mutilationrites/'>
+            <i
+              class='fa fa-instagram fa-3x'
+              aria-hidden='true'
+            />
+          </a>
+          <a target='_blank' href='https://twitter.com/mutilationrites'>
+            <i
+              class='fa fa-twitter-square fa-3x'
+              aria-hidden='true'
+            />
+          </a>
         </div>
       </div>
     )

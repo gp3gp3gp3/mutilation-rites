@@ -8,7 +8,7 @@ li {
   font-family: 'Rubik Mono One', sans-serif;
   color: lightgrey;
   cursor: pointer;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 .App-logo {
@@ -31,13 +31,19 @@ li {
 
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 760px) {
+  li {
+    margin: 0 10px;
+  }
+
   .App-header {
     height: 15em;
     padding: 20px 0;
   }
+
   .header-items {
     flex-direction: row;
+    padding: 0 5%;
   }
 }
 

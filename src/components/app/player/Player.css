@@ -1,5 +1,5 @@
-p {
-  font-family: 'Rubik Mono One', sans-serif;
+a {
+  text-decoration: none;
 }
 
 .bandcamp-frame {
@@ -31,13 +31,28 @@ p {
 }
 
 .link {
-  cursor: pointer;
-  color: darkred;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.social-buttons-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.fa {
+  color: lightgrey;
 }
 
 @media only screen and (min-width: 500px) {
   .bandcamp-frame {
     height: 100%;
     width: 100%;
+  }
+
+  .social-buttons-wrapper {
+    width: 75%;
   }
 }
