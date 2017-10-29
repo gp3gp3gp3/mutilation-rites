@@ -1,6 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   background-color: black;
+}
+
+li {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
 }

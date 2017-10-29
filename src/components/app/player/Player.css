@@ -1,3 +1,7 @@
+p {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
 .bandcamp-frame {
   display: flex;
   flex: 1;
