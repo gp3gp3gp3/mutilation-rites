@@ -21,8 +21,18 @@ p {
   border: none;
   overflow: hidden;
   margin: 10px 0;
-  width: 350px;
+  width: 210px;
   height: 56px;
+}
+
+.link-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.link {
+  cursor: pointer;
+  color: darkred;
 }
 
 @media only screen and (min-width: 500px) {

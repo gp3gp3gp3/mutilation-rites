@@ -6,7 +6,6 @@ p {
 .wrapper {
   display: flex;
   flex: 2;
-  height: 768px;
   align-items: center;
   justify-content: center;
 }

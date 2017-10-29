@@ -21,8 +21,8 @@ class Player extends Component {
           frameBorder='0'
           allowTransparency
         />
-        <div style={{width: '75%', textAlign: 'left'}}>
-          <p style={{cursor: 'pointer', color: 'darkred'}}>Press Package</p>
+        <div className='link-wrapper'>
+          <p className='link'>Press Package</p>
         </div>
       </div>
     )
