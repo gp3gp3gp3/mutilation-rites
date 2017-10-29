@@ -3,6 +3,17 @@
 }
 
 .Body {
-  text-align: left;
-  height: 100vh
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .Body {
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+  }
 }

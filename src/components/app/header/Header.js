@@ -7,7 +7,7 @@ const Header = ({ scrollToRef }) => (
     <img src={logo} className='App-logo' alt='logo' />
     <ul className='header-items'>
       <li onClick={scrollToRef('player')}>Music</li>
-      <li>Tour</li>
+      <li onClick={scrollToRef('tour')}>Tour</li>
       <li>Merch</li>
       <li>Contact</li>
     </ul>
