@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import './Tour.css'
 
 class Tour extends Component {
   render () {
     return (
-      <div style={{flex: 1}}>
-        <h1 style={{color: 'lightgrey'}}>No upcoming live shows</h1>
+      <div className='wrapper'>
+        <h1>No upcoming live shows</h1>
       </div>
     )
   }
